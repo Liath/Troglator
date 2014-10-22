@@ -7,7 +7,7 @@ My goal is to get my Logitech G15's LCD to show VLC info in an app I use that sp
 LCDSirReal has lived on my G15 since day one, probably about five years at time of writing. Here's a link to it: http://www.linkdata.se/software/lcdsirreal/
 Note the Winamp support. It's really quite convenient. But I haven't had a use for winamp since before I even owned a G15. Like most sane human beings, I use VLC.
 
-### WinAmpian Primer
+## WinAmpian Primer
 The WinAmpian language is spoken over Windows SendMessage (Relevant). Here's the only useful documentation I've come across on the matter: http://forums.winamp.com/showthread.php?threadid=180297
 
 ## Disassembling for Fun and Profit
@@ -36,3 +36,5 @@ I find that GetWindowTextW suspect. Let's take a looksie:
 ![Twas a safe bet, no?](http://puu.sh/ckeIT/4f946ab5d7.png)
 And there it is. We now know we need to create a window of class "Winamp v1.x" with a title in the format of "(track number). (artist) - (song name) - Winamp" that will then receive our SendMessages.
 
+## The Code
+I haven't faintest clue how to C and I lost my debian VM to a rabid pack of wild hard drive failure, so I'ma go get that going. 
