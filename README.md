@@ -40,7 +40,7 @@ And there it is. We now know we need to create a window of class "Winamp v1.x" w
 
 
 #### Getting VLC to compile
-Or at least enough of it that we can do in-tree cross-compilation.
+Or at least enough of it that we can do in-tree cross-compilation. This applies to cross-compiling VLC for Windows in general since the wiki is kind of... unhelpful.
 ```
 apt-get install gcc-mingw-w64-x86-64 g++-mingw-w64-x86-64 mingw-w64-tools
 git clone git://git.videolan.org/vlc.git vlc
